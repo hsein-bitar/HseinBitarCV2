@@ -67,14 +67,42 @@ body>#svg {
     margin-top: 2vh;
 }
 
-.skills-header,
-.row {
+.skills-header {
     display: flex;
 }
 
 .skills-header .col {
     color: var(--accent-color);
     background-color: var(--tertiary-color);
+}
+
+.col {
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+    margin: 1vh;
+    padding: 1vh;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+
+}
+
+.skills .col2 {
+    width: 100%;
+    margin: 1vh;
+
+}
+
+.skills .row {
+    font-size: 0.8rem;
+    flex: 1;
+    width: 100%;
+    border-bottom: 1px solid var(--accent-color-2);
+    padding: 1vh;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .col {
