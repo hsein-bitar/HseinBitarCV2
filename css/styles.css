@@ -3,3 +3,7 @@
 body {
     color: var(--accent-color);
 }
+
+.header {
+    display: flex;
+}
