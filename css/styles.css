@@ -1,9 +1,36 @@
 @import url("theme_variables.css");
 
+
+*,
+html {
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-weight: 300;
+}
+
+
 body {
-    color: var(--accent-color);
+    color: var(--secondary-color);
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .header {
+    border: 1px solid red;
+    height: 10vh;
+    padding: 10vh 10vw;
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-img {
+    height: 15vh;
+    aspect-ratio: 1/1;
+    border: 1px solid red;
+}
+
+.profile-img * {
+    height: 100%;
 }
