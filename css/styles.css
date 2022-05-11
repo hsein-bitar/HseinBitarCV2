@@ -47,6 +47,7 @@ body>#svg {
 }
 
 .intro {
+    font-style: italic;
     padding: 0;
     margin: 0;
 }
@@ -82,22 +83,22 @@ body>#svg {
     margin: 1vh;
     padding: 1vh;
     text-align: center;
+    flex: 1;
 }
 
 .skills {
     display: flex;
-
 }
 
 .skills .col2 {
     width: 100%;
     margin: 1vh;
-
 }
 
 .skills .row {
-    font-size: 0.8rem;
-    flex: 1;
+    font-size: 0.9rem;
+    /* flex: 1;
+    border: 1px solid red; */
     width: 100%;
     border-bottom: 1px solid var(--accent-color-2);
     padding: 1vh;
@@ -105,13 +106,16 @@ body>#svg {
     justify-content: space-around;
 }
 
-.col {
-    border: 1px solid var(--accent-color);
-    border-radius: 10px;
-    margin: 1vh;
-    padding: 1vh;
-    text-align: center;
-    flex: 1;
+/* end of skills styling */
+
+
+/* about styling */
+#about {
+    font-size: 1.2rem;
+    /* border: 1px solid red; */
+    padding: 0 3vw;
+    text-align: justify;
+    text-align-last: justify;
 }
 
-/* end of skills styling */
+/* end of about styling */
