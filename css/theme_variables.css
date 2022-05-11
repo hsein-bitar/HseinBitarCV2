@@ -1,5 +1,6 @@
 :root {
-    --accent-color: red;
+    --accent-color: rgb(45, 103, 150);
+    --accent-color-2: rgb(161, 178, 191);
     --secondary-color: gray;
     --tertiary-color: lightgrey;
     --font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
