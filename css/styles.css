@@ -1,0 +1,5 @@
+@import url("theme_variables.css");
+
+body {
+    color: var(--accent-color);
+}
