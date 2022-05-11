@@ -50,11 +50,12 @@ body>#svg {
 .hr1 {
     display: flex;
     width: 100%;
+    height: 0.5vh;
+    background-color: var(--secondary-color);
 }
 
-.hr1::after {
+/* .hr1::after {
     width: 100vw;
     height: 5px;
     content: "";
-    background-color: var(--secondary-color);
-}
+} */
