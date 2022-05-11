@@ -30,6 +30,7 @@ body>#svg {
 .header {
     height: 10vh;
     padding: 10vh 10vw;
+    padding-bottom: 10vh;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -44,4 +45,16 @@ body>#svg {
 
 .profile-img * {
     height: 100%;
+}
+
+.hr1 {
+    display: flex;
+    width: 100%;
+}
+
+.hr1::after {
+    width: 100vw;
+    height: 5px;
+    content: "";
+    background-color: var(--secondary-color);
 }
