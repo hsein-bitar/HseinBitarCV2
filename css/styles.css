@@ -13,6 +13,7 @@ body {
     color: var(--secondary-color);
     overflow-x: hidden;
     overflow-y: scroll;
+
 }
 
 
@@ -136,6 +137,7 @@ body>#svg {
 }
 
 .xp-title {
+    color: var(--accent-color);
     padding: 0.7rem;
     flex: 1;
     background-color: var(--tertiary-color);
