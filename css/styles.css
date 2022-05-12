@@ -37,13 +37,17 @@ body>#svg {
 }
 
 .profile-img {
+    margin-top: 2vh;
     height: 18vh;
     aspect-ratio: 1/1;
     border: 2px solid var(--secondary-color);
+    border-radius: 25px;
+    /* overflow: hidden; */
 }
 
 .profile-img * {
     height: 100%;
+    border-radius: 25px;
 }
 
 .intro {
@@ -122,6 +126,7 @@ body>#svg {
 /* work experience section styling */
 
 .flex-container {
+    margin-bottom: 2vh;
     overflow: hidden;
     border: 1px solid var(--accent-color);
     border-radius: 20px;
