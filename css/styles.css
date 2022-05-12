@@ -8,6 +8,11 @@ html {
     font-weight: 300;
 }
 
+html {
+    max-width: 1335px;
+    margin: auto;
+}
+
 
 body {
     color: var(--secondary-color);
@@ -19,6 +24,7 @@ body {
 
 /* top svg wave styling */
 body>#svg {
+    max-width: 1335px;
     fill: var(--accent-color-2);
     position: fixed;
     top: -2vw;
@@ -187,13 +193,13 @@ table td+td {
 
 .hobby-container {
     margin-top: 2vh;
-    /* border: 1px solid red; */
-    max-width: 1335px;
 }
 
 
 .hobby-list {
     display: flex;
+    /* border: 1px solid red;
+    width: 100%; */
     flex-flow: row wrap;
     justify-content: flex-start;
     justify-content: space-between;
@@ -203,7 +209,7 @@ table td+td {
 .hobby {
     font-size: large;
     line-height: 200%;
-    margin: 1vh 0vw;
+    margin: 0.6vh 0.6vw;
     height: 15vh;
     aspect-ratio: 1/1;
     border: 1px solid var(--accent-color);
