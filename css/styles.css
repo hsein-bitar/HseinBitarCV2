@@ -49,6 +49,7 @@ body>#svg {
     aspect-ratio: 1/1;
     border: 2px solid var(--secondary-color);
     border-radius: 25px;
+    filter: drop-shadow(0 0 0.75rem crimson);
     /* overflow: hidden; */
 }
 
@@ -219,6 +220,7 @@ table td+td {
     justify-content: center;
     flex-direction: column;
     background-color: var(--tertiary-color);
+    /* filter: drop-shadow(0 0 0.75rem var(--secondary-color)); */
 }
 
 /* end of hobby list styling */
