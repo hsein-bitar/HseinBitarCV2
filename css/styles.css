@@ -133,7 +133,6 @@ body>#svg {
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: stretch; */
 }
 
 .xp-title {
@@ -149,7 +148,6 @@ body>#svg {
 
 .experience {
     flex: 3;
-    /* background-color: var(--tertiary-color); */
 }
 
 @media screen and (max-width: 768px) {
@@ -159,3 +157,25 @@ body>#svg {
 }
 
 /* end of work experience section styling */
+
+/* educational background section styling */
+.table {
+    border: none;
+}
+
+.thead {
+    color: var(--accent-color);
+    background-color: var(--tertiary-color);
+}
+
+th,
+td {
+    border: none;
+    padding: 10px;
+}
+
+table td+td {
+    border-left: 2px solid var(--accent-color);
+}
+
+/* end of educational background section styling */
