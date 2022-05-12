@@ -109,13 +109,46 @@ body>#svg {
 /* end of skills styling */
 
 
-/* about styling */
+/* about section styling */
 #about {
     font-size: 1.2rem;
-    /* border: 1px solid red; */
-    padding: 0 3vw;
+    padding: 0vw 3vw;
     text-align: justify;
     text-align-last: justify;
 }
 
-/* end of about styling */
+/* end of about section styling */
+
+/* work experience section styling */
+
+.flex-container {
+    overflow: hidden;
+    border: 1px solid var(--accent-color);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: stretch; */
+}
+
+.xp-title {
+    padding: 0.7rem;
+    flex: 1;
+    background-color: var(--tertiary-color);
+}
+
+.xp-title * {
+    margin: auto;
+}
+
+.experience {
+    flex: 3;
+    /* background-color: var(--tertiary-color); */
+}
+
+@media screen and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+/* end of work experience section styling */
