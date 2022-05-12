@@ -160,7 +160,10 @@ body>#svg {
 
 /* educational background section styling */
 .table {
-    border: none;
+    border: 1px solid var(--accent-color);
+    overflow: hidden;
+
+    border-radius: 25px;
 }
 
 .thead {
@@ -198,10 +201,12 @@ table td+td {
 
 
 .hobby {
+    font-size: large;
+    line-height: 200%;
     margin: 1vh 0vw;
-    height: 19vh;
+    height: 15vh;
     aspect-ratio: 1/1;
-    border: 1px solid red;
+    border: 1px solid var(--accent-color);
     border-radius: 15px;
     text-align: center;
     display: flex;
